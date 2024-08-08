@@ -1,4 +1,4 @@
-const port = 3000;
+const port = 6565;
 const io = require("socket.io")(port);
 
 console.log("Server is listening on port %d", port);
