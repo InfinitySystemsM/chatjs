@@ -2,7 +2,7 @@ const io = require("socket.io-client");
 const readline = require('readline');
 const { exec } = require('child_process');
 const { exit } = require("process");
-const socket = io("http://45.194.207.88:6565");
+const socket = io("http://localhost:6565");
 
 var nickname = null;
 
